@@ -25,7 +25,7 @@ btn6.addEventListener('click', seis)
 let btnSomar = document.querySelector('input#btnSomar')
 btnSomar.addEventListener('click', somar)
 let btn1 = document.querySelector('input#btn1')
-btn.addEventListener('click', um)
+btn1.addEventListener('click', um)
 let btn2 = document.querySelector('input#btn2')
 btn2.addEventListener('click', dois)
 let btn3 = document.querySelector('input#btn3')
@@ -38,7 +38,7 @@ let btnPonto = document.querySelector('input#btnPonto')
 btnPonto.addEventListener('click', ponto)
 
 
-let contador = 0
+let contador = '0'
 
 function clear() {
     contador = ''
@@ -61,17 +61,17 @@ function multiplicar() {
 }
 
 function sete() {
-    contador = 7
+    contador += '7'
     visor.innerText = contador
 }
 
 function oito() {
-    contador = 8
+    contador += '8'
     visor.innerText = contador
 }
 
 function nove() {
-    contador = 9
+    contador += '9'
     visor.innerText = contador
 }
 
@@ -81,17 +81,17 @@ function diminuir() {
 }
 
 function quatro() {
-    contador = 4
+    contador += '4'
     visor.innerText = contador
 }
 
 function cinco() {
-    contador = 5
+    contador += '5'
     visor.innerText = contador
 }
 
 function seis() {
-    contador = 6
+    contador += '6'
     visor.innerText = contador
 }
 
@@ -101,17 +101,17 @@ function somar() {
 }
 
 function um() {
-    contador = 1
+    contador += '1'
     visor.innerText = contador
 }
 
 function dois() {
-    contador = 2
+    contador += '2'
     visor.innerText = contador
 }
 
 function tres() {
-    contador = 3
+    contador += '3'
     visor.innerText = contador
 }
 
@@ -121,7 +121,7 @@ function igual() {
 }
 
 function zero() {
-    contador = 0
+    contador += ''
     visor.innerText = contador
 }
 
